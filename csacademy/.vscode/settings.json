@@ -1,0 +1,7 @@
+{
+    "buttonz": {
+        "launch": "./*.out",
+        "build" : "make",
+        "clean" : "make clean",
+    }
+}
