@@ -11,6 +11,8 @@ int main()
     cin.getline(str, 51);
 
     for(size_t i = 0; i<51; ++i) {
+        if(str[i] == '\0')
+            break;
         p = p << 1;
         m = m << 1;
         if(str[i] == '1') {
